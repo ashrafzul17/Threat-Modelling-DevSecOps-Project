@@ -1,4 +1,4 @@
-This is a generic example of how STRIDE can be applied to identify threats and mitigations for SQL Injection in the application.
+We use STRIDE to identify threats and mitigations for SQL Injection in the application.
 
 ```mermaid
 
