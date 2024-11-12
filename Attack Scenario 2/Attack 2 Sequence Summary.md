@@ -1,4 +1,4 @@
-# Summary MITRE ATT&CK Sequence
+ # Summary MITRE ATT&CK Sequence
 
 ## Attack Description
 The attacker conducts detailed reconnaissance on the data lake and automated processes within the Solari Health 360 application. Using advanced techniques, they identify insecure API endpoints and flaws in process automation, enabling them to bypass security controls and access sensitive data stored in the data lake.
