@@ -4,40 +4,39 @@ This is an example of how STRIDE is use to demonstrate the current controls in p
 
 graph TD
 
-    subgraph API_and_Process_Flow
-        A[External API] -->|Requests| B[Application API Gateway]
-        B -->|Data Requests| C[Data Lake]
-        B -->|Triggers| D[Automated Processes]
+    %% User Interaction
+    subgraph UserInteraction
+        A[External User] -->|API Requests| B[Application API Gateway]
     end
 
-    subgraph Data_Lake
-        C -->|Store/Fetch| E[Data Storage]
+    %% Application Process Flow
+    subgraph ApplicationFlow
+        B -->|Access Data| C[Data Lake]
+        B -->|Initiate Processes| D[Automated Processing]
     end
 
-    A((External API)) -.->|Access| F[Authentication Layer]
-    B -.->|Logging| G[Monitoring & Logging Service]
-    B -.->|Process Access| H[Role-Based Access Control (RBAC)]
+    %% Data Storage
+    subgraph DataLake
+        C -->|Data Management| E[Data Storage]
+    end
 
-    %% Threats
-    T1([Spoofing: Impersonate Authorized API User])
-    T2([Tampering: Inject Malicious Scripts])
-    T3([Repudiation: Deny Actions on Processes])
-    T4([Information Disclosure: Data Leak])
-    T5([Denial of Service: Overload API Gateway])
-    T6([Elevation of Privilege: Unauthorized Data Lake Access])
+    %% Authentication and Controls
+    A((External User)) -.->|Authentication Check| F[Authentication Mechanism]
+    B -.->|Event Logging| G[Logging Service]
+    B -.->|Access Control| H[Role-Based Access Control (RBAC)]
 
-    %% Connections between threats and elements
-    T1 -.-> A
-    T2 -.-> B
-    T3 -.-> G
-    T4 -.-> E
-    T5 -.-> B
-    T6 -.-> H
+    %% Threat Definitions
+    T1([Spoofing: Spoof User Identity]) -.-> A
+    T2([Tampering: Alter API Requests]) -.-> B
+    T3([Repudiation: Deny Transactions]) -.-> G
+    T4([Information Disclosure: Data Leak]) -.-> E
+    T5([Denial of Service: Overload API Gateway]) -.-> B
+    T6([Elevation of Privilege: Unauthorized Data Access]) -.-> H
 
     %% Mitigations
-    M1([Mitigation: Strong API Authentication]) --> T1
-    M2([Mitigation: Input Validation]) --> T2
+    M1([Mitigation: Strong Authentication]) --> T1
+    M2([Mitigation: HTTPS]) --> T2
     M3([Mitigation: Non-repudiation Mechanisms]) --> T3
     M4([Mitigation: Data Encryption]) --> T4
-    M5([Mitigation: API Rate Limiting]) --> T5
+    M5([Mitigation: Rate Limiting]) --> T5
     M6([Mitigation: Role-Based Access Control]) --> T6
