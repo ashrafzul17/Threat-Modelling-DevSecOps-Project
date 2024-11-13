@@ -1,4 +1,6 @@
-This is a generic example of how you can use STRIDE to demonstrate the current controls in place for the application and is not specific to scenario 1.
+# STRIDE Model
+
+- In this example of STRIDE model, we demonstrate the current controls in place for the application and used to help reason and find threats to a system.
 
 
 

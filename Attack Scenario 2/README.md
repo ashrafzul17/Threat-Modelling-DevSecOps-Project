@@ -3,7 +3,7 @@
 ## Stages of the Attack
 
 ### Origins
-The attacker targets the data lake and automated processes within the Solari Health 360 application, aiming to exploit weak points in machine processes to gain access to sensitive aggregated data.
+The attacker targets the data lake and automated processes within the Solaris Health 360 application, aiming to exploit weak points in machine processes to gain access to sensitive aggregated data.
 
 ### Reconnaissance
 Detailed research is conducted on the data lake architecture, machine learning workflows, and APIs. The attacker identifies potential process automation weaknesses.

@@ -1,4 +1,12 @@
-The Data Flow Diagram is used to highlight any key critical areas of the application that will be targeted by a likely attacker. Confirm the accuracy of the DFD with engineering teams during the workshop.
+# Data Flow Diagram
+
+- The Data Flow Diagram is used to highlight any key critical areas of the application that will be targeted by a likely attacker.
+
+- In the workshop, during discussion with engineering teams its important to ensure a shared understanding of potential attack vectors
+
+
+
+
 
 ```mermaid
 
