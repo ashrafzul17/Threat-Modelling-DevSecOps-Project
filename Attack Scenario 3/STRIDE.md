@@ -1,3 +1,5 @@
+# STRIDE Model
+
 We use STRIDE to identify threats and mitigations for SQL Injection in the application.
 
 ```mermaid

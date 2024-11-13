@@ -1,3 +1,5 @@
+# STRIDE Model
+
 We use STRIDE to to demonstrate the current controls in place for the application.
 
 This diagram outlines potential threats identified through STRIDE and highlights corresponding mitigation measures for each threat.

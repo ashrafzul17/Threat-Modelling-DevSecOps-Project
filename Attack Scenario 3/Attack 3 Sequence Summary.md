@@ -1,7 +1,7 @@
 # Summary MITRE ATT&CK Sequence
 
 ## Attack Description
-The attacker leverages a SQL injection vulnerability within the Solari Health 360 application to gain unauthorized access. By injecting malicious SQL code through input fields, the attacker is able to bypass authentication controls and retrieve sensitive data from the database.
+The attacker leverages a SQL injection vulnerability within the Solaris Health 360 application to gain unauthorized access. By injecting malicious SQL code through input fields, the attacker is able to bypass authentication controls and retrieve sensitive data from the database.
 
 ## Methodology
 The attack sequence below utilizes the MITRE ATT&CK framework along with commonly used techniques.

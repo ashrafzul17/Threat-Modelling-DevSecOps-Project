@@ -1,4 +1,4 @@
-#STRIDE Model
+# STRIDE Model
 
 This is an example of how STRIDE is use to demonstrate the current controls in place for securing data lake interactions and automated processes
 
