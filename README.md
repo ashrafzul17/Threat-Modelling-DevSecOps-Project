@@ -22,6 +22,7 @@ Care Connect Eng team, Product Managers, DevEx Engineers and the DevSecOps Team.
 2. Attack against Machine Processes and the data lake
 3. SQL Injection attack 
 4. Insider attack taking Quant algorithms.
+5. Supply Chain Attack Compromising Third-Party Software
 
 
 
@@ -81,3 +82,4 @@ mindmap
       Attack 2
       Attack 3
       Attack 4
+      Attack 5
