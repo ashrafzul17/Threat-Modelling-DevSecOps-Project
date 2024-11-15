@@ -17,7 +17,7 @@ Care Connect Eng team, Product Managers, DevEx Engineers and the DevSecOps Team.
 
 ## Scope
 
-4 Scenarios were run covering: 
+5 Scenarios were run covering: 
 1. AI Generated External phishing email utilising admin credentials 
 2. Attack against Machine Processes and the data lake
 3. SQL Injection attack 
