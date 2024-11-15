@@ -66,7 +66,7 @@ A total of 4 high risks and 1 medium risks were found during the threat modellin
 
 mindmap
   root((Attack Begins))
-    STRIDE/MITRE ATT&CK/Kill Chain
+    STRIDE/MITRE ATT&amp;CK/Kill Chain
       Conduct Inherent Risk Assessment
       ::icon(fa fa-book)
       Create Critical Asset List
